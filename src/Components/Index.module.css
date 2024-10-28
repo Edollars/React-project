@@ -1,0 +1,44 @@
+.card{
+    border: 2px solid #3e3b3b;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    display: inline-block;
+}
+.card .image{
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+.card .card-head{
+    margin: 0;
+    color: #663f8a;
+}
+.card .card-text{
+    margin: 0;
+    color: #251435;
+}
+
+.OurClass{
+    color: #333;
+    background-color: #c2bbbb;
+    font-size: 2em;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 2px solid #300a0a;
+    transition: all 0.3s ease;
+}
+.OurClass:hover{
+    border-color: #ff5733;
+    background-color: #e0e0e0;
+
+}
+
+.OurClass p{
+    margin: 0;
+
+}
